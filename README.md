@@ -46,12 +46,14 @@ function myFunction() {} -> function declaration.
 functions declarations are not part of the top-to-bottom flow, they are moved to the top of their scope and can be used by all the code in that scope even if it sits higher than the function declaration.
 
 Arrow Functions
+
 const square1 = (x) => { return x * x; };
 const square2 = x => x * x;   ->  they are the same.
 
 call stack -> where computer stores context
 
 Optional Arguments
+
 if you have a function with one parameter and you pass three arguments the extra two arguments will be ignored without throwing an error. If you pass to few the missing params get assigned undefined.
 
 If you write an = operator after a parameter, followed by an expres-
