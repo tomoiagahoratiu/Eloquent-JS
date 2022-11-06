@@ -26,3 +26,5 @@ JS has automatic type conversion
 If you use == or != you can't prevent unexpected type conversions.
 
 console.log( null || user) -> will print user, if first value can be converted to false the right value is printed. && work similarly but the other way around. Also the right part is only evaluated when necessary. (short-circuit evaluation).
+
+## Chapter 2: Program Structure
