@@ -22,6 +22,8 @@ function App() {
       <button onClick={() => chestBoard(8)}>Click to print chessboard</button>
       </li>
     </ul>
+    <ul>Chapter 3: Functions
+    </ul>
     </>
   );
 }

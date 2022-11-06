@@ -35,3 +35,6 @@ var used in pre-2015 JS, similar to let but differes TBC
 const
 
 Binding names must not start with a number, can include $ OR _ but no other special characters. Keywords can't be used as binding names
+
+
+## Chapter 3: Functions
