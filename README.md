@@ -26,3 +26,12 @@ JS has automatic type conversion
 If you use == or != you can't prevent unexpected type conversions.
 
 console.log( null || user) -> will print user, if first value can be converted to false the right value is printed. && work similarly but the other way around. Also the right part is only evaluated when necessary. (short-circuit evaluation).
+
+## Chapter 2: Program Structure
+Missing ; at the end of a statement can make the next line part of the same statement. TBC
+ 
+let caught = 5 * 5; is called binding.
+var used in pre-2015 JS, similar to let but differes TBC
+const
+
+Binding names must not start with a number, can include $ OR _ but no other special characters. Keywords can't be used as binding names
